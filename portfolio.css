@@ -1,9 +1,65 @@
-.red {
-    color: red;
- }
- .thick {
-    font-size:20px;
- }
- .green {
-    color:green;
- }
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	padding: 15px;
+}
+
+.container > div h2 {
+	color: rgb(36, 4, 87);
+}
+.intro {
+	margin: -15px;
+	padding: 16px;
+	background-color: rgb(133, 135, 139);
+	color: black;
+	text-align: center;
+}
+
+#profile-image {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+.social-profiles img {
+	height: 20px;
+	width: 20px;
+}
+
+.social-profiles a {
+	text-decoration: none;
+	margin: auto 3px;
+}
+
+table,
+tr,
+td,
+th {
+	border: 1px solid;
+	border-collapse: collapse;
+	font-size: 1.3rem;
+}
+
+table,
+th,
+td {
+	padding: 5px;
+}
+
+table,
+tr,
+th {
+	text-align: center;
+	color: rgb(23, 3, 61);
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+.container > div li {
+	font-size: 1.4rem;
+}
