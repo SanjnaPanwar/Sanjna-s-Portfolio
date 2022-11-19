@@ -34,13 +34,31 @@ body {
 	margin: auto 3px;
 }
 
+.projects h3{
+	color: rgb(36, 4, 87);
+
+}
+
+.projects .backend a{
+	color: rgb(49, 6, 245);
+	font-size: large;
+
+}
+
+.projects .frontend  a{
+	color: rgb(49, 6, 245);
+	font-size: large;
+
+}
+
+
 table,
 tr,
 td,
 th {
 	border: 1px solid;
 	border-collapse: collapse;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 }
 
 table,
@@ -63,9 +81,11 @@ th{
 }
 
 p {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
+
 }
 
 .container > div li {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
+
 }
