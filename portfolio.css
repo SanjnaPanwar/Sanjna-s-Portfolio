@@ -100,7 +100,12 @@ th{
 
 }
 
+.dynamic{
+	font-size: 1.5rem;
+}
 .dynamic-color{
-	color: rgb(153, 6, 6);
-	font-size: x-large;
+	/* color: rgb(153, 6, 6); */
+	color: rgba(3, 24, 70, 0.925);
+	font-size: 1.9rem;
+	
 }
