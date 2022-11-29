@@ -1,11 +1,21 @@
 const dynamicContent = document.getElementById("dynamic-text");
 
-const phases = ["Developer", "Backend", "Software", "NodeJs"];
+const phases = [
+	"Backend-Developer...",
+	"NodeJs...",
+	"HapiJs...",
+	"ExpressJs...",
+	"PostgreSQL...",
+	"MySQL...",
+	"Python...",
+	"HTML...",
+	"CSS...",
+];
 
 let phaseIndex = 0;
 let letterIndex = 0;
 const typingSpeed = 200;
-const eraseSpeed = 100;
+const eraseSpeed = 90;
 
 function printLetters(phase) {
 	if (letterIndex == phase.length) {
