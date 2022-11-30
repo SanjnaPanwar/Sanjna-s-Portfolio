@@ -1,15 +1,9 @@
 const dynamicContent = document.getElementById("dynamic-text");
 
 const phases = [
-	"Backend-Developer...",
-	"NodeJs...",
-	"HapiJs...",
-	"ExpressJs...",
-	"PostgreSQL...",
-	"MySQL...",
-	"Python...",
-	"HTML...",
-	"CSS...",
+	"Programmer...",
+	"Developer...",
+	"Coder...",
 ];
 
 let phaseIndex = 0;
