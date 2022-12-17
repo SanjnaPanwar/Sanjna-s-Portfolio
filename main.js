@@ -1,9 +1,9 @@
 const dynamicContent = document.getElementById("dynamic-text");
 
 const phases = [
-	"Programmer...",
-	"Developer...",
-	"Coder...",
+	"Programmer...♡",
+	"Developer...♡",
+	"Coder...♡",
 ];
 
 let phaseIndex = 0;
